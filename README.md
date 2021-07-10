@@ -6,6 +6,7 @@
 <!-- UL -->
 * git clone https://github.com/MrEx69/Student-Management-System.git
 
+* create a database and name it sms
 * composer install
 * create .env file
 *  copy the .env.example and paste to .env
