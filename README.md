@@ -1,13 +1,14 @@
 
 <!-- Headings -->
-# Instruction
+# Student_Management_System
+## Instruction
 
 <!-- UL -->
 * git clone https://github.com/MrEx69/Student-Management-System.git
 
 * composer install
-* cp .env.example .env
-	* create database w/ name of sms 
+* create .env file
+*  copy the .env.example and paste to .env
 	
 * php artisan key:generate
 * php artisan migrate
@@ -16,4 +17,9 @@
 
 
 
+
+### credential
+
+* user: admin@gmail.com
+* password: admin
 
