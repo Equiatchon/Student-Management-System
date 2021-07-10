@@ -1,6 +1,6 @@
 
 <!-- Headings -->
-# Heading 1
+# Instruction
 
 <!-- UL -->
 * git clone https://github.com/MrEx69/Student-Management-System.git
