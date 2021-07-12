@@ -17,7 +17,7 @@ class TeacherController extends Controller
      */
     public function index()
     {
-        // $teachers = Teacher::with('user')->latest()->paginate(10);
+        
         $teachers = Teacher::all();
         return view('backend.teachers.index', compact('teachers'));
     }
