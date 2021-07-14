@@ -1,6 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
+
+<!-- this is for the input of attendance on students -->
 <div class="create">
 
     <div class="flex items-center justify-between mb-6">

@@ -1,6 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
+
+  <!-- this is for creating a class -->
     <div class="roles">
 
         <div class="flex items-center justify-between mb-6">

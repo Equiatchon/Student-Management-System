@@ -1,6 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
+
+<!-- this is where the teacher table is displayed with its crud -->
     <div class="roles-permissions">
         <div class="flex items-center justify-between mb-6">
             <div>
