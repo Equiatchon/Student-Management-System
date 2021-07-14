@@ -1,8 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-
-<!-- this is displayed on the admin panel where they can see the inputed attendace -->
     <div class="create">
 
         <div class="flex items-center justify-between mb-6">
@@ -30,7 +28,10 @@
                             <input name="type" class="mr-2 leading-tight" type="radio" value="class" checked>
                             <span class="text-sm">Class</span>
                         </label>
-                       
+                        <!-- <label class="ml-4 block text-gray-600 font-bold">
+                            <input name="type" class="mr-2 leading-tight" type="radio" value="teacher" disabled>
+                            <span class="text-sm">Teacher</span>
+                        </label> -->
                     </div>
                 </div>
                 <div class="md:flex md:items-center mb-6 text-gray-700 uppercase font-bold">

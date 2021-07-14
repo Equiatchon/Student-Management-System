@@ -1,9 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-
-
-<!-- this is where the class is displayed and its crud part -->
 <div class="roles-permissions">
     <div class="flex items-center justify-between mb-6">
         <div>
@@ -18,7 +15,7 @@
             </a>
         </div>
     </div>
-  
+   
     <table   id="myTable">
         <thead>
             <td>#</td>
@@ -30,13 +27,14 @@
         </thead>
 
         @foreach ($classes as $class)
-       
+
+
         <tr>
             <td>{{ $class->class_numeric }}</td>
             <td>{{ $class->class_name }}</td>
             <td>
                 <span class="bg-gray-200 text-sm mr-1 mb-1 px-2 font-semibold border rounded-full">
-                  
+                    <!-- {   asd{ $class->students_count }  asd } -->
                        {{ $class->students->count() }}
                 </span>
             </td>

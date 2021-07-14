@@ -1,8 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-
-<!-- this is for the assigning of subject on the class  -->
     <div class="roles">
 
         <div class="flex items-center justify-between mb-6">

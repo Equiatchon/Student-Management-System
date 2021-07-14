@@ -1,8 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-
-<!-- this is where the subject table is displayed ant its crud -->
 <div class="roles-permissions">
     <div class="flex items-center justify-between mb-6">
         <div>

@@ -22,7 +22,7 @@ class StudentController extends Controller
      
     public function index()
     {
-       
+        
         $students = Student::all(); 
         return view('backend.students.index', compact('students'));
     }
@@ -145,7 +145,6 @@ class StudentController extends Controller
         $request->validate([
             'name'              => 'required|string|max:255',
             'email'             => 'required|string|email|max:255|unique:users,email,'.$student->user_id,
-            
             'class_id'          => 'required|numeric',
             'roll_number'       => [
                 'required',

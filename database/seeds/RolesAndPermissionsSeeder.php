@@ -17,13 +17,13 @@ class RolesAndPermissionsSeeder extends Seeder
         app()[\Spatie\Permission\PermissionRegistrar::class]->forgetCachedPermissions();
 
         // create permissions
-       
+        // Permission::create(['name' => 'edit articles']);
 
         $role = Role::create(['name' => 'Admin']);
         $role = Role::create(['name' => 'Teacher']);
     
         $role = Role::create(['name' => 'Student']);
 
-       
+        // $role->givePermissionTo('edit articles');
     }
 }

@@ -1,6 +1,19 @@
 
 <!-- Headings -->
 # Student_Management_System
+
+## This project is made using Laravel Framework.
+## Features
+* student registration
+* teacher registration
+* claass assigning
+* subject assigning
+* student attendance
+
+
+
+
+
 ## Instruction
 
 <!-- UL -->

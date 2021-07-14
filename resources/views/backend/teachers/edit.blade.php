@@ -1,8 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-
-<!-- this is the update part of the teacher -->
     <div class="roles">
 
         <div class="flex items-center justify-between mb-6">
