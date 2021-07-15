@@ -32,7 +32,7 @@
 
             <td>{{ $subject->subject_code  }}</td>
 
-            <td>{{ $subject->teacher->user->name   }}</td>
+            <td>{{ $subject->teacher->user->name ?? '' }}</td>
 
             <td>{{ $subject->description }}</td>
 

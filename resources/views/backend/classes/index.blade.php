@@ -34,7 +34,7 @@
             <td>{{ $class->class_name }}</td>
             <td>
                 <span class="bg-gray-200 text-sm mr-1 mb-1 px-2 font-semibold border rounded-full">
-                    <!-- {   asd{ $class->students_count }  asd } -->
+                   
                        {{ $class->students->count() }}
                 </span>
             </td>

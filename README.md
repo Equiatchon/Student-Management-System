@@ -28,6 +28,7 @@
 * php artisan migrate
 * php artisan db:seed
 * php artisan serve
+* open the browser and type localhost:8000
 
 
 

@@ -63,8 +63,8 @@
             @foreach ($assigned->students as $student)
                 <div class="flex items-center justify-between border border-gray-200 mb-px">
                     <div class="w-1/4 text-left text-gray-600 py-2 px-4 font-medium">{{ $student->user->name }}</div>
-                    <div class="w-1/4 text-left text-gray-600 py-2 px-4 font-medium">{{ $student->user->email }}</div>
-                    <div class="w-1/4 text-right text-gray-600 py-2 px-4 font-medium">{{ $student->phone }}</div>
+                    <div class="w-1/2 text-left text-gray-600 py-2 px-4 font-medium">{{ $student->user->email }}</div>
+                    <div class="w-1/2 text-left text-gray-600 py-2 px-4 font-medium">{{ $student->phone }}</div>
 
                 </div>
             @endforeach
